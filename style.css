@@ -16,10 +16,10 @@ body{
 
 .wrapper{
     width: 80vmin;
-    padding: 50px 40px;
+    padding: 20px;
     background-color: #15161a;
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
     top: 50%;
     left: 50%;
     border-radius: 12px;
@@ -35,7 +35,7 @@ p{
     font-size: 14px;
     color: #fff;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px;
 }
 .fade{
     opacity: 1;
