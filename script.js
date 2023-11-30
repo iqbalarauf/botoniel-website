@@ -1,8 +1,8 @@
+// Vercel Analytics
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+
 // Contoh URL dari Google Apps Script
 var scriptUrl = 'https://script.google.com/macros/s/AKfycbxqlAciFm9NTbEZvZEvEmN97vbldq8TFZVZy5nWzWC2_angx_kA1q3RqdJnFb3fXKXKDA/exec';
-
-
-
 function loadJokes(){
     // Mendapatkan elemen tombol
     var loadButton = document.getElementById('loadButton');
