@@ -11,24 +11,47 @@
 </head>
 <body>
     <header>
-        <h3>MRTJam7Lewat12 | Iqbal AR</h3>
-
-        <nav>
-            <a href="#" target=”_blank”>MutheLingo Translator</a>
-            <a href="http://t.me/botnielbot" target=”_blank”>BotOniel on Telegram</a>
-            <a href="http://x.com/mrtjam7lewat12" target=”_blank”>X Account</a>
-        </nav>
-    </header>
+      <nav>
+        <input type="checkbox" id="nav-toggle">
+        <div class="logo">
+          <img src="img/MRTIcon.ico" alt="" />
+          MRT<strong>Jam7Lewat12</strong>
+        </div>
+        <ul class="links">
+            <div class="subnav">
+              <li><a href="#">Di balik cerita BotOniel</a>
+              <div class="subnav-content">
+                <a href="https://x.com/mrtjam7lewat12/status/1683474891658391558">Buku: Kumpulan Humor Ala Oniel</a>
+                <a href="https://x.com/mrtjam7lewat12/status/1684547783406256129">Behind The Scene</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="http://t.me/botnielbot">Add bot on Telegram</a></li>
+          <li><a href="http://twitter.com/mrtjam7lewat12">Find me in X/Twitter</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+      </header>
     <div class="wrapper">
         <div class="images">
-            <img src="img/LogoOnielTransp.png" width="140" height="140">
+            <img src="img/LogoOnielTransp.png" height="140">
         </div>
-        <h2 id="output"></h2>
+        <h1 id="output"></h1>
         <p id="info"></p>
         <button id="loadButton" onclick="loadJokes()">Niel, Jokes Niel</button>
     </div>
 
     <!-- Script -->
-    <script src="script.js"></script>
+    <script type="text/javascript">
+		let scriptElement = document.createElement("script");
+		scriptElement.type = "text/javascript";
+		scriptElement.src = "script.js";
+
+		document.body.appendChild(scriptElement);
+</script>
 </body>
 </html>
